@@ -1,0 +1,25 @@
+
+    ---
+    tags:
+      - Authentication
+    summary: User login
+    description: Log in an existing user
+    parameters:
+      - in: body
+        name: body
+        schema:
+          type: object
+          required:
+            - email
+            - password
+          properties:
+            email:
+              type: string
+            password:
+              type: string
+    responses:
+      200:
+        description: User logged in successfully
+      401:
+        description: Invalid credentials
+    

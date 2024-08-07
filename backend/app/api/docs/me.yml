@@ -1,0 +1,10 @@
+
+    ---
+    tags:
+      - Authentication
+    summary: Get current user
+    description: Get the details of the currently logged in user
+    responses:
+      200:
+        description: User details retrieved successfully
+    

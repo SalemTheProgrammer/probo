@@ -1,0 +1,10 @@
+
+    ---
+    tags:
+      - Authentication
+    summary: Refresh access token
+    description: Refresh the access token using a refresh token
+    responses:
+      200:
+        description: Access token refreshed successfully
+    
