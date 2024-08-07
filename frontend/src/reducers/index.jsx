@@ -1,4 +1,5 @@
 import { combineReducers } from 'redux';
+import authReducer from './auth/authReducer';
 
 const initialState = {
   counter: 0,
@@ -17,6 +18,7 @@ const counterReducer = (state = initialState, action) => {
 
 const rootReducer = combineReducers({
   counter: counterReducer,
+  auth : authReducer
 });
 
 export default rootReducer;
